@@ -1,0 +1,17 @@
+Future improvements
+
+* To yes/no question related to restart, if I type not by mistake instead of no, the code simply treat this response as yes. Instead, better let the user know that it is an invalid input and seek valid input. 
+Basically, to consider any input other than yes or no as invalid, because it could just be a mistake
+
+* The above comment applies to the question related to displaying raw data as well.
+
+* Wrap the code to print raw data in a separate function and call it inside main() function.
+
+* There is a Docstring in all functions except the load_data function. 
+
+* To correctly find out most common trip, use pandas.DataFrame.groupby() function.
+
+* Years should be formatted as integer, not as a float. 
+
+
+
